@@ -8,7 +8,7 @@ services:
     environment:
       - POSTGRES_HOST=db
       - POSTGRES_PORT=5432
-      - POSTGRES_DB=usermanagement
+      - POSTGRES_DB=usermanagement #changeit
       - POSTGRES_USER=username #changeit
       - POSTGRES_PASSWORD=pass #changeit
       - AZURE_AD_TENANT_ID=your_tenant_id
